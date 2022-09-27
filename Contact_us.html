@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="shortcut icon" href="/image/phone-call.png" type="image/x-icon">
+    <style>
+        body{
+            margin: 0;
+            background-color: rgb(19, 193, 209);
+        }
+        .Div-Header{
+            text-align: center;
+            background-color: rgb(60, 56, 65);
+            padding: 30px;
+            margin-right: -10px;
+            font-size: 2em;
+            color: rgb(170, 13, 39);
+            
+        }
+        .Div-Left-Contact{
+            width: 50%;
+            text-align: center;
+            float: left;
+        
+        }
+        .Div-Right-ContactForm{
+            width: 50%;
+            text-align: center;
+            float: right;
+            border-color: rgb(5, 0, 0);
+            /* border: double; */
+            
+            
+        }
+        table{
+            border-collapse: collapse;
+            margin-left: 7em;
+        }
+        td{
+            padding: 18px;
+        }
+        .table2{
+            margin-top: 25px;
+            width: 60%;
+            margin-bottom: 25px;
+            border-style: solid;
+            border-radius: 5px;
+        }
+        #message{
+            padding: 10px;
+        }
+        #name,#mobile,#email{
+            width: 90%;
+    
+        }
+        #Submit-Form{
+            width: 30%;
+            padding: 8px;
+            border-radius: 8px;
+            border-style: none;
+            background-color: black;
+            color: white;
+        }
+        #Submit-Form:hover{
+            background-color: rgb(148, 147, 147);
+            color: black;
+            font-weight:400
+        }
+        a:hover{
+            color:rgb(228, 20, 82);
+        
+        }
+        .footer{
+            width: 100%;
+            background-color: black;
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Div-Header">
+        CONTACT US
+    </div>
+    <div class="Div-Left-Contact">
+        
+        <table border="0">
+            <tr> <td colspan="2">
+                <h3>Contact:</h3> </td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>SACHIN GUPTA <br>
+                   
+                    <a href="mailto:mailsachingupta20@gmail.com">mailsachingupta20@gmail.com</a>
+            </tr>
+            <tr>
+            </td>
+            <td>2.</td>
+            <td>SHRAY SHARMA <br>
+                <a href="mailto:shraysharmagnps@gmail.com">shraysharmagnps@gmail.com</a> 
+            </td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>VAIBHAV SHUKLA <br>
+                <a href="mailto:vaibhavshukla747@gmail.com">vaibhavshukla747@gmail.com</a> 
+            </td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>SHIVANGI GUPTA<br>
+                <a href="mailto:shivangi.gupta2102@gmail.com">shivangi.gupta2102@gmail.com</a> 
+            </td>
+            </tr>
+        </table>
+    </div>
+    <div class="Div-Right-ContactForm">
+        <table border="1" class="table2" bgcolor="Dodgerblue">
+            <tr>
+                <td colspan="2">Send Your Message</td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" id="name" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td><input type="email" name="email" id="email" placeholder="Enter your email"></td>
+            </tr>
+            <tr>
+                <td>Mobile No.:</td>
+                <td><input type="tel" name="mobile" id="mobile" placeholder="+91 xxxxxxxxxx "></td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea name="message" id="message" cols="50" rows="8" placeholder="Please Write Your Message Here !!"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="SUBMIT" id="Submit-Form">
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="footer">
+        <p> &#169; SVSS Blogger's Website</p>
+    </div>
+</body>
+</html>
